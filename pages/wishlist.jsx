@@ -34,7 +34,7 @@ import { Table, Tbody, Td ,Tr,Thead,Th, Button} from '@chakra-ui/react'
         <Tbody>
           {movie.map(el=><Tr key={el.id}>
             <Td>{el.id}</Td>
-            <Td> <Image height={'60px'} width={'60px'} src={el.Images[2]} alt='abc' /> </Td>
+            <Td> <Image height={'70px'} width={'70px'} src={el.Images[2]} alt='abc' /> </Td>
             <Td>{el.Title}</Td>
             <Td>{el.imdbRating}</Td>
             <Td>{el.Released}</Td>
